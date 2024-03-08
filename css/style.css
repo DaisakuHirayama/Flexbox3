@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .image-with-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-with-text img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ここは、後で調整します */
+  
+  .text {
+    color: orange;
+    position: relative;
+    top: -20px; /* 画像より少し上に配置 */
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-button {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .image-button img {
+    display: block;
+    width: 200px; /* 画像の幅 */
+    height: auto;
+  }
+  
+  .button {
+    display: block;
+    width: 200px; /* ボタンの幅 */
+    height: 40px; /* ボタンの高さ */
+    background-color: #ddd;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+  }
+  
